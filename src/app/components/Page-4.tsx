@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page4() {
   return (
     <div className="h-screen flex justify-center items-center bg-[#043873]">
@@ -6,7 +8,7 @@ export default function Page4() {
         <h1 className="text-white font-bold text-[44px] relative inline-block">
           Use as Extenion
         </h1>
-        <img
+        <Image
           src="/images/underline.png"
           alt="Vector"
           width="350"
@@ -19,7 +21,7 @@ export default function Page4() {
           save web pages or take screenshots as notes.
         </p>
         <button className="text-white w-[237px] h-[66px] p-4 bg-[#4F9CF9] rounded-lg">
-          let's Go →
+          let&#39;s Go →
         </button>
       </div>
       <div className="bg-[#C4DEFD] w-[500px] h-[350px] my-auto"></div>

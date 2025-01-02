@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page5() {
   return (
     <div className="h-screen flex justify-center items-center py-10 px-10 gap-4">
@@ -10,7 +12,7 @@ export default function Page5() {
           <h1 className="font-bold text-[72px]  relative inline-block">
             Customize it to your needs
           </h1>
-          <img
+          <Image
             src="/images/underline.png"
             alt="Element-image"
             width="400"
@@ -20,14 +22,13 @@ export default function Page5() {
         </div>
 
         <p className="font-normal text-[18px] text-left">
-          Customise the app plugins, custom and multiple text editor (Rich Text
-          ot Markdown). Or create your own scripts and plugins using the
-          Extension API.
+        Customise the app plugins, custom and multiple text editor&mdash;Rich Text or Markdown. Or create your own scripts and plugins using the Extension API.
+
         </p>
 
         <div className="mt-10">
           <button className="text-white w-[225px] h-[66px] rounded-md bg-[#4F9CF9] p-4">
-            Let's Go→
+            Let&#39;s Go→
           </button>
         </div>
         <div />

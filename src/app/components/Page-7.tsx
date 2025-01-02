@@ -6,7 +6,7 @@ export default function Page7() {
     <div className="bg-[#043873] w-auto h-[400px] flex items-center">
       <div className="flex flex-row justify-center items-center align-center">
         <div className="-mr-[50px] -pr-[100px]">
-          <img
+          <Image
             src="/images/bg-line.png"
             alt="background image"
             width={300}

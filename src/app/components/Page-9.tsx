@@ -7,7 +7,7 @@ export default function Page9() {
           Our sponsors
         </h1>
         <div className="flex justify-center">
-          <img
+          <Image
             src="/images/underline.png"
             alt="Element-image"
             width="300.15"
@@ -17,7 +17,7 @@ export default function Page9() {
         </div>
 
         <div className="flex justify-center">
-          <img
+          <Image
             src="/images/sponsors.png"
             alt="sponsors"
             width="1000.15"

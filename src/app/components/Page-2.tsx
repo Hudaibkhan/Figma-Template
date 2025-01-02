@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page2() {
   return (
     <div className="h-screen flex justify-center items-center">
@@ -7,7 +9,7 @@ export default function Page2() {
           <h1 className="font-bold text-[72px] relative inline-block ">
             Project Management
           </h1>
-          <img
+          <Image
             src="/images/underline.png"
             alt="Element-image"
             width="500"

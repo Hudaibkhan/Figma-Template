@@ -17,7 +17,7 @@ export default function Page3() {
           <h1 className="font-bold text-[72px] relative inline-block ">
             Work Together
           </h1>
-          <img
+          <Image
             src="/images/underline.png"
             alt="Element-image"
             width="500"
