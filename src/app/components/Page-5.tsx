@@ -15,8 +15,8 @@ export default function Page5() {
           <Image
             src="/images/underline.png"
             alt="Element-image"
-            width="400"
-            height="31.47"
+            width={400}
+            height={31.47}
             className="underline-image -mt-8"
           />
         </div>

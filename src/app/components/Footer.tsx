@@ -28,7 +28,7 @@ export default function Footer(){
                 <div className="flex gap-10 w-[1180px] h-[182px]">
                     <div className="w-[250px] flex flex-col gap-5">
                         <Image
-                        src="/images/Logo-mian.png"
+                        src="/images/Logo-main.png"
                         alt="Logo"
                         width={191}
                         height={34}/>

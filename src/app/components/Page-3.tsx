@@ -20,8 +20,8 @@ export default function Page3() {
           <Image
             src="/images/underline.png"
             alt="Element-image"
-            width="500"
-            height="30"
+            width={500}
+            height={30}
             className="underline-image -mt-8 pl-56"
           />
         </div>

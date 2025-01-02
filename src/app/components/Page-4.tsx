@@ -11,8 +11,8 @@ export default function Page4() {
         <Image
           src="/images/underline.png"
           alt="Vector"
-          width="350"
-          height="30"
+          width={350}
+          height={30}
           className="underline-image -mt-14 pl-[150px]"
         />
 

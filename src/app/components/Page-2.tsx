@@ -12,8 +12,8 @@ export default function Page2() {
           <Image
             src="/images/underline.png"
             alt="Element-image"
-            width="500"
-            height="20"
+            width={500}
+            height={20}
             className="underline-image -mt-8 "
           />
         </div>

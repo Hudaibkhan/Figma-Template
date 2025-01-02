@@ -10,8 +10,8 @@ export default function Page9() {
           <Image
             src="/images/underline.png"
             alt="Element-image"
-            width="300.15"
-            height="36.56"
+            width={300.15}
+            height={36.56}
             className="underline-image -mt-5 ml-44"
           />
         </div>
@@ -20,8 +20,8 @@ export default function Page9() {
           <Image
             src="/images/sponsors.png"
             alt="sponsors"
-            width="1000.15"
-            height="36.56"
+            width={1000.15}
+            height={36.56}
             className="underline-image mt-20"
           />
         </div>

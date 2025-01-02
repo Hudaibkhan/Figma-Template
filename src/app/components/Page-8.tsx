@@ -9,8 +9,8 @@ export default function Page8() {
             <Image
               src="/images/underline.png"
               alt="Element-image"
-              width="350.15"
-              height="36.56"
+              width={350.15}
+              height={36.56}
               className="underline-image -mt-14 ml-56 "
             />
           
@@ -34,8 +34,8 @@ export default function Page8() {
             src="/images/side-image.png"
             alt="side-image"
             className="relative -mt-96"
-            width="681"
-            height="381.13"
+            width={681}
+            height={381.13}
           />
         </div>
       </div>
