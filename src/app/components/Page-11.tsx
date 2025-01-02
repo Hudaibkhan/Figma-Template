@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Page11() {
   return (
     <div className="flex flex-col items-center pt-10 pb-10 gap-10">

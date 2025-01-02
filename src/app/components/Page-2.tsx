@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Page2() {
   return (
     <div className="h-screen flex justify-center items-center">

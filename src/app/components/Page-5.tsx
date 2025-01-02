@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Page5() {
   return (
     <div className="h-screen flex justify-center items-center py-10 px-10 gap-4">

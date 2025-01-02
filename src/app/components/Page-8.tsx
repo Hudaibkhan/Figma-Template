@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Page8() {
   return (
     <div>
