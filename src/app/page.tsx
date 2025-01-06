@@ -16,7 +16,7 @@ export default function Home(){
   return(
     <div>
         {/* Header start */}
-        <Header/>
+        <Header/> 
         {/* Header end */}
 
 

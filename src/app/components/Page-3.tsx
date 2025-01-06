@@ -2,19 +2,20 @@ import Image from "next/image";
 
 export default function Page3() {
   return (
-    <div className="flex flex-row">
-      <div className="m-10 ">
+    <div className="flex lg:flex-row flex-col mx-auto py-20 xxl:w-[1440px] px-6">
+      <div className="m-10 mx-auto">
         <Image
           src="/images/Work Together Image.png"
           alt="work-together-image"
-          width={661}
+          width={710}
           height={661}
+          className="xxl:w-[710px] xxl:h-[661px] xl:w-[583px] xl:h-[542px] md:w-[582px] md:h-[561px] xs:w-[452px] xs:h-[422px] w-[279px] h-[259px]"
         />
       </div>
 
-      <div className="flex flex-col flex-1 gap-4 justify-center  w-[661px] h-[661px]">
+      <div className="flex flex-col flex-1 gap-4 justify-center lg:items-start items-center w-full px-8 h-[661px]">
         <div>
-          <h1 className="font-bold text-[72px] relative inline-block ">
+          <h1 className="font-bold xxl:text-[72px]/[78px] sm:text-start text-center lg:text-[64px]/[64px] sm:text-[54px]/[54px] relative text-4xl inline-block ">
             Work Together
           </h1>
           <Image
@@ -22,11 +23,11 @@ export default function Page3() {
             alt="Element-image"
             width={500}
             height={30}
-            className="underline-image -mt-8 pl-56"
-          />
+            className="underline-image lg:-mt-8 sm:-mt-6 -mt-4 md:w-[400px] sm:w-[300px] w-[200px] "
+            />
         </div>
 
-        <p className="font-normal text-[17px]">
+        <p className="font-normal text-[17px] lg:text-start text-center">
           With whitepace, share your notes with your colleagues and collaborate
           on them. You can also publish a note to the internet and share the URL
           with others.
